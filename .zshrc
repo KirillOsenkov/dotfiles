@@ -89,6 +89,8 @@ source $ZSH/oh-my-zsh.sh
 # fi
 export EDITOR='code -w'
 
+export GIT_PAGER=cat
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
