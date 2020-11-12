@@ -103,6 +103,10 @@ export GIT_PAGER=cat
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+export DEVDIV_PKGS_NUGET_TOKEN=xxxxx
+export VSS_NUGET_ACCESSTOKEN=xxxxx
+export VSS_NUGET_URI_PREFIXES="https://devdiv.pkgs.visualstudio.com;https://pkgs.dev.azure.com"
+
 alias dir='ls -1FGAhp'
 alias cd..='cd ..'
 alias up='cd ..'
