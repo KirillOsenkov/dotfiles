@@ -107,6 +107,16 @@ export DEVDIV_PKGS_NUGET_TOKEN=xxxxx
 export VSS_NUGET_ACCESSTOKEN=xxxxx
 export VSS_NUGET_URI_PREFIXES="https://devdiv.pkgs.visualstudio.com;https://pkgs.dev.azure.com"
 
+alias gitclean='git submodule sync && git reset --hard && git clean -xdff && git submodule foreach --recursive git reset --hard && git submodule foreach --recursive git clean -xdff && git submodule update --init --recursive'
+mdthis() {
+ gitclean && ./configure && make
+ if [ $? -eq 0 ]; then
+ osascript -e 'display notification "Visual Studio Mac" with title "Build success!"'
+ else
+ osascript -e 'display notification "Visual Studio Mac" with title "Build failed!"'
+ fi
+}
+
 alias dir='ls -1FGAhp'
 alias cd..='cd ..'
 alias up='cd ..'
