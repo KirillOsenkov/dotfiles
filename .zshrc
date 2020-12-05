@@ -131,3 +131,5 @@ alias where='which'
 
 autoload -U compinit
 compinit
+
+ulimit -S -n 10000
