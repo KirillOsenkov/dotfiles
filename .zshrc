@@ -133,3 +133,5 @@ autoload -U compinit
 compinit
 
 ulimit -S -n 10000
+
+defaults write .GlobalPreferences com.apple.mouse.scaling -1
