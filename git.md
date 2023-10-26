@@ -9,4 +9,5 @@ git config --global push.default simple
 git config --global core.editor vsnotepad
 git config --global format.pretty oneline
 git config --global log.abbrevCommit true
+git config --global --add --bool push.autoSetupRemote true
 ```
