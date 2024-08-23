@@ -1,0 +1,1 @@
+procdump -accepteula -e 1 -f "ArgumentException" -ma -x . "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Extensions\TestPlatform\testhost.net472.exe"
