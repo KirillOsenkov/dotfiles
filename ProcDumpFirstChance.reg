@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\testhost.net472.exe]
+"Debugger"="procdump -accepteula -e 1 -f \"ArgumentException\" -ma -x C:\\CrashDumps
+
