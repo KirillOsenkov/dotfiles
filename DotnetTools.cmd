@@ -1,6 +1,7 @@
 REM https://mastodon.social/@KirillOsenkov/111427666886735396
 
 dotnet tool update -g beetle
+dotnet tool update -g binlogmcp
 dotnet tool update -g binlogtool
 dotnet tool update -g checkbinarycompat
 dotnet tool update -g contentsync
